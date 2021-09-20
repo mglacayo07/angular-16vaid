@@ -1,0 +1,14 @@
+<h2>Este es mi primer componente</h2>
+
+<button (click)="onEditClick()">Tiene un botón</button>
+
+<div *ngIf="canEdit; else noEdit">
+    <p>Los archivos que estan en HTML5 tambien deben tener extensión .component.html</p>
+</div>
+
+<ng-template #noEdit>
+    <p>Aprendi que para que el archivo funcione deben tener extensión .component.ts</p>
+</ng-template>
+
+<p [contentEditable]="canEdit">{{ message }}</p>
+
