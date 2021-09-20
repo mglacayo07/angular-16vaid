@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'hello-world-interpolation',
   templateUrl: './hello-world-interpolation.component.html'
 })
+
 export class HelloWorldInterpolationComponent {
     message = 'this message can use <b>html</b>';
 }

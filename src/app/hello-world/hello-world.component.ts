@@ -4,9 +4,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'hello-world',
   template: `
-    <h2>Hello Maria</h2>
-    <p>This is my first component!</p>
-    <p>Let's see how asome is Angular</p>
+    <h2>Hello Alex</h2>
+    <p>Esto es un componente!</p>
   `
 })
 export class HelloWorldComponent {
