@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 export class HelloWorldNgIfComponent {
   message = 'I\'m read only!';
   canEdit = false;
-
+  buttonID = "editable_button";
   onEditClick() {
     this.canEdit = !this.canEdit;
     if (this.canEdit) {
